@@ -1,0 +1,159 @@
+.decor {
+    background-color: #01897b;
+    height: 244px;
+    max-width: 171px;
+    /* min-width: 330px; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+@media (max-width: 767.98px) {
+
+    .block-promo {
+        position: relative;
+    }
+
+    .decor {
+        position: absolute;
+        top: 0;
+        right: -90px;
+    }
+    
+    .element_ellipse {
+        margin-top: -35% !important;
+    }
+
+    .element_half-circle:nth-child(n+5) {
+        margin-top: -17% !important;
+    }
+}
+
+@media (min-width: 767.98px) {
+    .decor {
+        height: 280px;
+        max-width: 210px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .decor {
+        height: 700px;
+        max-width: 522px;
+    }
+
+    .element_ellipse {
+        border-top-left-radius: 100px !important;
+        border-top-right-radius: 100px !important;
+        border-bottom-left-radius: 100px !important;
+        border-bottom-right-radius: 100px !important;
+    }
+
+    .element_ellipse-clipped {
+        border-top-left-radius: 100px !important;
+        border-top-right-radius: 100px !important;
+    }
+
+    .element_half-circle:nth-child(-n+3) {
+        border-bottom-left-radius: 100px !important;
+        border-bottom-right-radius: 100px !important;
+    }
+    
+    .element_half-circle:nth-child(n+5) {
+        border-top-left-radius: 100px !important;
+        border-top-right-radius: 100px !important;
+    }
+
+    .element_big-circle {
+        box-shadow: 0 50px 30px 0 rgba(0,0,0,0.3) !important;
+    }
+}
+
+.element_half-circle {
+    width: 33.33%;
+    height: 12.5%;
+}
+
+.element_circle {
+    width: 33.33%;
+    height: 25%;
+    border-radius: 50%;
+}
+
+.inner {
+    width: 100%;
+    height: 50%;
+    background-image: url(../img/decor-bg/wrap.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.element_big-circle {
+    width: 66.66%;
+    height: 50%;
+    border-radius: 50%;
+    box-shadow: 0 30px 30px 0 rgba(0,0,0,0.3);
+    background-image: url(../img/decor-bg/trash.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    z-index: 2;
+}
+
+.element_circle:nth-of-type(4) {
+    background-image: url(../img/decor-bg/jar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.element_ellipse {
+    width: 33.33%;
+    height: 50%;
+    margin-top: -33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.element_ellipse-clipped {
+    width: 33.33%;
+    height: 37.5%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.element_half-circle:nth-child(-n+3) {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.element_half-circle:nth-child(n+5) {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-top: -16%;
+}
+
+.element_per-grn {
+    background-color: #02ac8f;
+}
+
+.element_lime-grn {
+    background-color: #4DF8AA;
+}
+
+.element_white {
+    background-color: #fff;
+}
+
+.element_yellow {
+    background-color: #FFE121;
+}

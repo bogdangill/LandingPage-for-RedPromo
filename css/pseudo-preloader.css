@@ -1,0 +1,26 @@
+.preloader {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.preloader img {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    animation: heartbeat 0.5s infinite;
+}
+
+@keyframes heartbeat {
+    from {
+        transform: scale(0.7);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}

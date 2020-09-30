@@ -1,0 +1,79 @@
+@media screen and (min-width: 767.98px) {
+    body {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .main-h {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .small-h {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .about-p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+    .phone-number {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .main-h {
+        font-size: 48px;
+        line-height: 59px;
+    }
+
+    .promo-p {
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 400;
+    }
+
+    .small-h {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .about-p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .point-p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .smaller-h {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+    .text {
+        margin-top: 20px;
+    }
+
+    .phone-number {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .btn {
+        font-size: 15px;
+        line-height: 18px;
+    }
+}
